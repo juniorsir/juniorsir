@@ -39,8 +39,7 @@
 ## 📊 My 3D Stats World
 <div align="center">
   <!-- GitHub Trophy Wall -->
-  <img src="https://github-profile-trophy.vercel.app/?username=juniorsir&theme=radical&no-bg=true&column=7" width="100%" />
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=react-dark&area=true&hide_border=true" width="100%" />
   <br />
 
   <!-- 3D Snake Animation (Requires GitHub Action setup below) -->
