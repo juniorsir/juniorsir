@@ -22,7 +22,7 @@
     </td>
     <td width="50%" style="border: none;">
       <!-- 3D Isometric Activity Graph -->
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&area=true&hide_border=true" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=react-dark&area=true&hide_border=true" width="100%" />
     </td>
   </tr>
 </table>
@@ -39,17 +39,17 @@
 ## 📊 My 3D Stats World
 <div align="center">
   <!-- GitHub Trophy Wall -->
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-bg=true&column=7" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=juniorsir&theme=radical&no-bg=true&column=7" width="100%" />
 
   <br />
 
   <!-- 3D Snake Animation (Requires GitHub Action setup below) -->
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" alt="Snake" />
+  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/juniorsir/output/github-contribution-grid-snake.svg" alt="Snake" />
 
   <br />
 
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&rank_icon=github" align="left" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" align="right" height="180px" />
+  <img src="https://github-readme-stats.vercel.app/api?username=juniorsir&show_icons=true&theme=radical&rank_icon=github" align="left" height="180px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juniorsir&layout=compact&theme=radical" align="right" height="180px" />
 </div>
 
 <br clear="both" />
