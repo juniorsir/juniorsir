@@ -1,42 +1,75 @@
-# 👋 Hi, I'm JuniorSir
+<div align="center">
 
-🎓 A passionate student, developer, and tech enthusiast who loves turning ideas into reality through code.  
-💡 Always learning, building, and exploring new technologies to grow as a creator.
+<!-- 3D Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20I'm%20JuniorSir&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
 
----
+# ⚡ Building the Future, One Line at a Time 🚀
 
-## 🚀 About Me
-- 🔭 I’m currently working on **automation tools, Telegram bots, and AI-based projects**  
-- 🌱 Learning **Python, Web Development, and Godot Game Engine**  
-- 💬 Ask me about **Termux automation, bot development, and creative UI design**  
-- ⚡ Fun fact: I can debug faster with music 🎧  
+[![](https://visitcount.itsvg.in/api?id=YOUR_GITHUB_USERNAME&icon=0&color=0)](https://visitcount.itsvg.in)
+
+</div>
 
 ---
 
-## 🧠 Skills & Tools
-💻 **Languages:** Python, JavaScript, Bash, HTML, CSS  
-🧰 **Tools:** Termux, Git, Node.js, Flask, Godot, Firebase  
-🧩 **Other:** Telegram Bot API, AI & ML basics, Automation Scripts  
+## 🧊 About Me
+<table align="center">
+  <tr>
+    <td width="50%" style="border: none;">
+      <p>🎓 <b>A passionate student & developer</b> who loves turning ideas into reality through code.</p>
+      <p>💡 <b>Currently focused on:</b> Automation tools, Telegram bots, and AI-based projects.</p>
+      <p>🌱 <b>Learning:</b> Python, Web Development, and Godot Game Engine.</p>
+      <p>⚡ <b>Fun fact:</b> I can debug faster with music 🎧</p>
+    </td>
+    <td width="50%" style="border: none;">
+      <!-- 3D Isometric Activity Graph -->
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&area=true&hide_border=true" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-<!--## 📊 GitHub Stats
-![Papa's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
+## 🧠 Skills & Tools (3D Floating Style)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,bash,html,css,git,nodejs,flask,firebase,bots,linux,visualstudio" />
+</div>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
--->
+---
+
+## 📊 My 3D Stats World
+<div align="center">
+  <!-- GitHub Trophy Wall -->
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-bg=true&column=7" width="100%" />
+
+  <br />
+
+  <!-- 3D Snake Animation (Requires GitHub Action setup below) -->
+  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" alt="Snake" />
+
+  <br />
+
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&rank_icon=github" align="left" height="180px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" align="right" height="180px" />
+</div>
+
+<br clear="both" />
+
 ---
 
 ## 🌐 Connect With Me
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Juniorsir_bot)  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_junior_sir_)  
-<!--[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Juniorsir_bot)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_junior_sir_)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+
+</div>
 
 ---
 
 ## 💬 Quote I Live By
 > "Code is like art — every line tells a story."
 
----
-
-⭐️ **If you like my work, consider giving a star to my repositories!**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/master/get-well-soon-pixel.gif" width="200px">
+</div>
