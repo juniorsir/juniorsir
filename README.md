@@ -44,7 +44,7 @@
   <br />
 
   <!-- 3D Snake Animation (Requires GitHub Action setup below) -->
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/juniorsir/output/github-contribution-grid-snake.svg" alt="Snake" />
+  <img src="https://raw.githubusercontent.com/juniorsir/juniorsir/output/github-contribution-grid-snake.svg" alt="Snake" />
 
   <br />
 
