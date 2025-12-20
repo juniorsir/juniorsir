@@ -1,53 +1,77 @@
 <div align="center">
 
-<!-- 3D FLOATING HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=200&section=header&text=JUNIOR%20SIR&fontSize=80&animation=twinkling&fontAlignY=40" width="100%"/>
+<!-- 3D Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20I'm%20JuniorSir&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
 
-<!-- FLOATING 3D ICON -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/Pc56Hof6u82Hl1WnO0/giphy.gif" width="150px">
+# ⚡ Building the Future, One Line at a Time 🚀
 
-# 🌌 ARCHITECTING DIGITAL WORLDS
-**Automation Specialist | Bot Architect | 3D UI Enthusiast**
+[![](https://visitcount.itsvg.in/api?id=juniorsir&icon=0&color=0)](https://visitcount.itsvg.in)
+
+</div>
 
 ---
 
-<!-- 3D ISOMETRIC DASHBOARD SECTION -->
-<table border="0">
+## 🧊 About Me
+<table align="center">
   <tr>
-    <td width="50%">
-      <h3>🛸 My Navigation System</h3>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juniorsir&layout=compact&theme=vision-friendly-dark&hide_border=true" />
+    <td width="50%" style="border: none;">
+      <p>🎓 <b>A passionate student & developer</b> who loves turning ideas into reality through code.</p>
+      <p>💡 <b>Currently focused on:</b> Automation tools, Telegram bots, and AI-based projects.</p>
+      <p>🌱 <b>Learning:</b> Python, Web Development, and Godot Game Engine.</p>
+      <p>⚡ <b>Fun fact:</b> I can debug faster with music 🎧</p>
     </td>
-    <td width="50%">
-      <h3>🛰️ Orbital Stats</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=juniorsir&show_icons=true&theme=vision-friendly-dark&hide_border=true" />
+    <td width="50%" style="border: none;">
+      <!-- 3D Isometric Activity Graph -->
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=react-dark&area=true&hide_border=true" width="100%" />
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ The Tech Forge (3D Floating Icons)
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,nodejs,flask,html,css,github,git,linux,svg,bots,discord,godot,replit,vscode,figma&perline=8" />
-  </a>
-</p>
-
----
-
-## 🕋 Isometric Contribution Cube
+## 🧠 Skills & Tools (3D Floating Style)
 <div align="center">
-  <!-- This creates a 3D block-style view of your work -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=dracula&area=true&hide_border=true&point=false" width="100%" />
+  <img src="https://skillicons.dev/icons?i=py,js,bash,html,css,git,nodejs,flask,firebase,bots,linux,visualstudio" />
 </div>
 
 ---
 
-## 🐍 3D Snake Logic Process
+## 📊 My 3D Stats World
 <div align="center">
-  <!-- This snake actually moves across your 3D contribution grid -->
-  <img src="https://raw.githubusercontent.com/juniorsir/juniorsir/output/github-contribution-grid-snake.svg" width="100%" />
+  <!-- GitHub Trophy Wall -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=react-dark&area=true&hide_border=true" width="100%" />
+  <br />
+
+  <!-- 3D Snake Animation (Requires GitHub Action setup below) -->
+  <img src="https://raw.githubusercontent.com/juniorsir/juniorsir/output/github-contribution-grid-snake.svg" alt="Snake" />
+
+  <br />
+
+  <img src="https://github-readme-stats.vercel.app/api?username=juniorsir&show_icons=true&theme=radical&rank_icon=github" align="left" height="180px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juniorsir&layout=compact&theme=radical" align="right" height="180px" />
+</div>
+
+<br clear="both" />
+
+---
+
+## 🌐 Connect With Me
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Juniorsir_bot)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_junior_sir_)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juniorsir)
+
+</div>
+
+---
+
+## 💬 Quote I Live By
+> "Code is like art — every line tells a story."
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/master/get-well-soon-pixel.gif" width="200px">
+</div>  <img src="https://raw.githubusercontent.com/juniorsir/juniorsir/output/github-contribution-grid-snake.svg" width="100%" />
 </div>
 
 ---
