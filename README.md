@@ -46,9 +46,6 @@
   <img src="https://raw.githubusercontent.com/juniorsir/juniorsir/output/github-contribution-grid-snake.svg" alt="Snake" />
 
   <br />
-
-  <img src="https://github-readme-stats.vercel.app/api?username=juniorsir&show_icons=true&theme=radical&rank_icon=github" align="left" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juniorsir&layout=compact&theme=radical" align="right" height="180px" />
 </div>
 
 <br clear="both" />
