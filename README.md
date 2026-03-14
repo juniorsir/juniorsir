@@ -27,15 +27,6 @@
   </tr>
 </table>
 
----
-
-## 🧠 Skills & Tools (3D Floating Style)
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,bash,html,css,git,nodejs,flask,firebase,bots,linux,visualstudio" />
-</div>
-
----
-
 ## 📊 My 3D Stats World
 <div align="center">
   <!-- GitHub Trophy Wall -->
