@@ -3,35 +3,11 @@
 <!-- 3D Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20I'm%20JuniorSir&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
 
-# ⚡ Building the Future, One Line at a Time 🚀
-
-[![](https://visitcount.itsvg.in/api?id=juniorsir&icon=0&color=0)](https://visitcount.itsvg.in)
 
 </div>
 
----
-
-## 🧊 About Me
-<table align="center">
-  <tr>
-    <td width="50%" style="border: none;">
-      <p>🎓 <b>A passionate student & developer</b> who loves turning ideas into reality through code.</p>
-      <p>💡 <b>Currently focused on:</b> Automation tools, Telegram bots, and AI-based projects.</p>
-      <p>🌱 <b>Learning:</b> Python, Web Development, and Godot Game Engine.</p>
-      <p>⚡ <b>Fun fact:</b> I can debug faster with music 🎧</p>
-    </td>
-    <td width="50%" style="border: none;">
-      <!-- 3D Isometric Activity Graph -->
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=react-dark&area=true&hide_border=true" width="100%" />
-    </td>
-  </tr>
-</table>
-
 ## 📊 My 3D Stats World
 <div align="center">
-  <!-- GitHub Trophy Wall -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juniorsir&theme=react-dark&area=true&hide_border=true" width="100%" />
-  <br />
 
   <!-- 3D Snake Animation (Requires GitHub Action setup below) -->
   <img src="https://raw.githubusercontent.com/juniorsir/juniorsir/output/github-contribution-grid-snake.svg" alt="Snake" />
