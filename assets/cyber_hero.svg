@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060a" />
+      <stop offset="50%" stop-color="#0a0c16" />
+      <stop offset="100%" stop-color="#05060a" />
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="neonCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="neonPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients for Borders and Accents -->
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#ff0077" />
+      <stop offset="100%" stop-color="#7928ca" />
+    </linearGradient>
+
+    <!-- 3D Grid Perspective Mask -->
+    <linearGradient id="gridFade" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#fff" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0" />
+    </linearGradient>
+    <mask id="gridMask">
+      <rect x="0" y="0" width="1000" height="320" fill="url(#gridFade)" />
+    </mask>
+  </defs>
+
+  <style>
+    @keyframes gridPulse {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(30px); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); opacity: 0.1; }
+      50% { opacity: 0.4; }
+      100% { transform: translateY(320px); opacity: 0.1; }
+    }
+    @keyframes tesseractRotate {
+      0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+      50% { transform: rotateX(180deg) rotateY(90deg) rotateZ(45deg); }
+      100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .hud-text {
+      font-family: 'Courier New', Courier, monospace, 'Fira Code', 'JetBrains Mono';
+      font-size: 13px;
+      letter-spacing: 2px;
+      fill: #00f0ff;
+    }
+    .glitch-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+      letter-spacing: 4px;
+      fill: #ffffff;
+    }
+    .cube-line {
+      stroke: #00f0ff;
+      stroke-width: 1.5;
+      fill: none;
+      opacity: 0.85;
+    }
+    .cube-inner {
+      stroke: #ff0077;
+      stroke-width: 1.5;
+      fill: none;
+      opacity: 0.85;
+    }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="320" fill="url(#bgGrad)" />
+
+  <!-- Outer Cyber Tech Frame -->
+  <rect x="15" y="15" width="970" height="290" fill="none" stroke="url(#cyberBorder)" stroke-width="1.5" rx="6" opacity="0.6" />
+  <rect x="22" y="22" width="956" height="276" fill="none" stroke="#00f0ff" stroke-width="0.5" stroke-dasharray="10 20" opacity="0.3" rx="4" />
+
+  <!-- Cyber Corner Notches -->
+  <path d="M 15 40 L 40 15" stroke="#00f0ff" stroke-width="2" fill="none" filter="url(#neonCyan)" />
+  <path d="M 985 40 L 960 15" stroke="#ff0077" stroke-width="2" fill="none" filter="url(#neonPink)" />
+  <path d="M 15 280 L 40 305" stroke="#ff0077" stroke-width="2" fill="none" filter="url(#neonPink)" />
+  <path d="M 985 280 L 960 305" stroke="#00f0ff" stroke-width="2" fill="none" filter="url(#neonCyan)" />
+
+  <!-- 3D Perspective Grid in Background -->
+  <g mask="url(#gridMask)" opacity="0.45">
+    <!-- Horizontal Perspective Lines -->
+    <line x1="0" y1="320" x2="1000" y2="320" stroke="#00f0ff" stroke-width="1.5" />
+    <line x1="0" y1="285" x2="1000" y2="285" stroke="#00f0ff" stroke-width="1.2" />
+    <line x1="0" y1="255" x2="1000" y2="255" stroke="#00f0ff" stroke-width="1.0" />
+    <line x1="0" y1="230" x2="1000" y2="230" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="0" y1="210" x2="1000" y2="210" stroke="#00f0ff" stroke-width="0.6" />
+    <line x1="0" y1="195" x2="1000" y2="195" stroke="#00f0ff" stroke-width="0.5" />
+    <line x1="0" y1="183" x2="1000" y2="183" stroke="#00f0ff" stroke-width="0.4" />
+    <line x1="0" y1="174" x2="1000" y2="174" stroke="#00f0ff" stroke-width="0.3" />
+
+    <!-- Isometric Converging Rays (Vanishing Point at 500, 165) -->
+    <line x1="500" y1="165" x2="0" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="100" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="200" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="300" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="400" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="500" y2="320" stroke="#ff0077" stroke-width="1.2" />
+    <line x1="500" y1="165" x2="600" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="700" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="800" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="900" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="500" y1="165" x2="1000" y2="320" stroke="#00f0ff" stroke-width="0.8" />
+  </g>
+
+  <!-- Left: Holographic 3D Wireframe Tesseract / Cube -->
+  <g transform="translate(140, 155)">
+    <!-- Outer Isometric 3D Hexacube -->
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#neonCyan)" />
+    <!-- 3D Internal Axes -->
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#00f0ff" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="52" y2="30" stroke="#00f0ff" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="-52" y2="30" stroke="#00f0ff" stroke-width="1.5" />
+    
+    <!-- Inner Inverted Isometric 3D Cube -->
+    <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="none" stroke="#ff0077" stroke-width="1.5" filter="url(#neonPink)" />
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#ff0077" stroke-width="1" />
+    <line x1="0" y1="0" x2="26" y2="-15" stroke="#ff0077" stroke-width="1" />
+    <line x1="0" y1="0" x2="-26" y2="-15" stroke="#ff0077" stroke-width="1" />
+
+    <!-- Connecting Projection Lines (Tesseract) -->
+    <line x1="0" y1="-60" x2="0" y2="-30" stroke="#7928ca" stroke-width="1" stroke-dasharray="3 3" />
+    <line x1="52" y1="-30" x2="26" y2="-15" stroke="#7928ca" stroke-width="1" stroke-dasharray="3 3" />
+    <line x1="52" y1="30" x2="26" y2="15" stroke="#7928ca" stroke-width="1" stroke-dasharray="3 3" />
+    <line x1="0" y1="60" x2="0" y2="30" stroke="#7928ca" stroke-width="1" stroke-dasharray="3 3" />
+    <line x1="-52" y1="30" x2="-26" y2="15" stroke="#7928ca" stroke-width="1" stroke-dasharray="3 3" />
+    <line x1="-52" y1="-30" x2="-26" y2="-15" stroke="#7928ca" stroke-width="1" stroke-dasharray="3 3" />
+
+    <!-- Central Glowing Core -->
+    <circle cx="0" cy="0" r="5" fill="#00f0ff" filter="url(#neonCyan)" />
+  </g>
+
+  <!-- Center Text / Main Identity -->
+  <g transform="translate(260, 0)">
+    <!-- Sub-header HUD Tag -->
+    <text x="0" y="75" class="hud-text" opacity="0.85">
+      <tspan fill="#ff0077">SYS.ID //</tspan> OPERATIVE_0x744 &nbsp;•&nbsp; <tspan fill="#00f0ff">[ONLINE]</tspan>
+    </text>
+
+    <!-- Glowing Futuristic Title -->
+    <text x="0" y="130" class="glitch-title">
+      JUNIORSIR
+    </text>
+
+    <!-- Subtitle -->
+    <text x="2" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#a0aec0" letter-spacing="1.5">
+      Systems &amp; AI Compiler Architect
+    </text>
+
+    <!-- Mission Directive -->
+    <text x="2" y="205" font-family="'Courier New', Courier, monospace" font-size="14" fill="#00f0ff" letter-spacing="1">
+      ⚡ Creator of <tspan fill="#ffffff" font-weight="bold">Zoren Language</tspan> — Native AArch64 &amp; Zero-GC Runtimes
+    </text>
+
+    <!-- Telemetry Badges in SVG -->
+    <g transform="translate(0, 235)">
+      <!-- Badge 1: Compiler -->
+      <rect x="0" y="0" width="130" height="26" rx="4" fill="#0e1322" stroke="#00f0ff" stroke-width="1" />
+      <text x="12" y="17" class="hud-text" font-size="11" fill="#00f0ff">SSA_COMPILER</text>
+
+      <!-- Badge 2: AI Autograd -->
+      <rect x="145" y="0" width="140" height="26" rx="4" fill="#140d1c" stroke="#ff0077" stroke-width="1" />
+      <text x="157" y="17" class="hud-text" font-size="11" fill="#ff0077">AI_AUTOGRAD</text>
+
+      <!-- Badge 3: Zero-GC Arena -->
+      <rect x="300" y="0" width="145" height="26" rx="4" fill="#10111e" stroke="#7928ca" stroke-width="1" />
+      <text x="312" y="17" class="hud-text" font-size="11" fill="#c084fc">CHAMBER_ARENA</text>
+
+      <!-- Badge 4: AArch64 -->
+      <rect x="460" y="0" width="125" height="26" rx="4" fill="#09181a" stroke="#00f0ff" stroke-width="1" />
+      <text x="472" y="17" class="hud-text" font-size="11" fill="#38bdf8">AARCH64_ISA</text>
+    </g>
+  </g>
+
+  <!-- Right: Decorative HUD Telemetry Dial -->
+  <g transform="translate(900, 150)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#00f0ff" stroke-width="1" stroke-dasharray="8 6" opacity="0.6" />
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#ff0077" stroke-width="0.8" stroke-dasharray="4 8" opacity="0.5" />
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="12 12" />
+    <line x1="-48" y1="0" x2="48" y2="0" stroke="#00f0ff" stroke-width="0.5" opacity="0.6" />
+    <line x1="0" y1="-48" x2="0" y2="48" stroke="#00f0ff" stroke-width="0.5" opacity="0.6" />
+    <text x="0" y="4" class="hud-text" font-size="9" text-anchor="middle" fill="#00f0ff">LTO:OK</text>
+  </g>
+
+  <!-- Animated Holographic Scanline -->
+  <line x1="15" y1="0" x2="985" y2="0" stroke="#00f0ff" stroke-width="1.5" opacity="0.25">
+    <animate attributeName="y1" from="15" to="305" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="y2" from="15" to="305" dur="4s" repeatCount="indefinite" />
+  </line>
+</svg>
