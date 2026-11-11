@@ -1,5 +1,5 @@
 # Pradeep (JuniorSir)
-### Systems & AI Compiler Architect • Creator of [Zoren](https://github.com/juniorsir/Zoren_lang)
+### Systems & AI Compiler Architect • Creator of [Zoren](https://github.com/juniorsir/zoren)
 
 > *Engineering native compiler optimizations, autograd tensor runtimes, and military-hardened zero-GC systems.*
 
@@ -28,9 +28,9 @@ Measured on bare-metal Linux AArch64 with `-O3` maximum optimization against sta
 
 ### 🚀 Flagship Ecosystem
 
-* ⚡ **[Zoren Platform](https://github.com/juniorsir/Zoren_lang)** — Autonomous, military-hardened systems language combining Pythonic expressiveness with bare-metal AArch64 speed.
-* 🐍 **[PyZoren](https://github.com/juniorsir/Zoren_lang/tree/master/pyzoren)** — Official Python SDK and zero-overhead native runtime bridge (`pip install -e .`).
-* 💻 **[Zoren VS Code](https://github.com/juniorsir/Zoren_lang/tree/master/tools/vscode-zoren)** — Official language extension with real-time LSP diagnostics, dark modern theme, and 20+ snippets.
+* ⚡ **[Zoren Platform](https://github.com/juniorsir/zoren)** — Autonomous, military-hardened systems language combining Pythonic expressiveness with bare-metal AArch64 speed.
+* 🐍 **[PyZoren](https://github.com/juniorsir/zoren/tree/master/pyzoren)** — Official Python SDK and zero-overhead native runtime bridge (`pip install -e .`).
+* 💻 **[Zoren VS Code](https://github.com/juniorsir/zoren/tree/master/tools/vscode-zoren)** — Official language extension with real-time LSP diagnostics, dark modern theme, and 20+ snippets.
 
 ---
 
